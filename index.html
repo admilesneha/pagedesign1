@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is Data Analysis?</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="themes/default/fonts/fieldwork/style.css">
+    <style>
+body {font-family: "Fieldwork Geo", Arial, Helvetica, sans-serif;margin: 0px;}
+body p{font-size: 18px;}
+body h2{font-size: 40px}
+.main-container{line-height: 1.6;}
+.container {padding: 100px;position: relative;}
+.container {background: url('image/data-analysis-example.jpg') no-repeat right;background-size: cover;padding: 100px 0 60px;background-position:top;}
+.image-container-2{background: url('image/img-container-pc-2.png') no-repeat right;background-size: cover;padding: 50px;border-radius: 18px;width: 1200px;margin: 0px auto;}
+.image-container-3 {background: url('image/image4-data-analytics.jpg') no-repeat right;background-size: cover;padding: 50px;}
+.image-content-container-3{width: 50%;width: 1200px;margin: 0px auto;}
+.image-content-container-2{width: 50%;}
+.container-content {width: 1200px;padding: 0;margin: 0 auto;}
+.container-content h1 {font-size: 2.5rem;margin-bottom: 15px;color: #333;}
+.container-content p {margin-bottom: 15px;}
+
+.da-examples {margin-bottom: 40px;}
+.da-examples h2 {margin-bottom: 20px;color: #333;}
+.da-examples ul {list-style: none;padding: 0;}
+.da-examples li {margin-bottom: 20px;display: flex;align-items: flex-start;}
+.da-examples li img { width: 24px;height: 24px;margin-right: 10px;margin-top: 3px;}
+.da-examples li p {margin: 0;font-size: 1rem;color: #555;}
+.data-analysis-slider1-section{background: #0e122b;}
+.data-analysis-slider1 {padding: 50px 0px;width: 1200px;margin: 0px auto;}
+.carousel-container {position: relative;width: 100%;}
+.carousel {display: flex;transition: transform 0.5s ease-in-out;}
+.slide {min-width: 23%;box-sizing: border-box;padding: 20px;text-align: left;background-color: #fff;font-size: 16px;justify-content: center;
+border-radius: 25px 0;margin: 0px 15px;}
+.slide img {width: 49.95px;height: 34.97px;margin-bottom: 15px;}
+button {position: absolute;top: 50%;transform: translateY(-50%);background-color: rgba(0, 0, 0, 0.5);color: white;font-size: 24px;border: none;
+cursor: pointer;padding: 10px;z-index: 10;}
+.prev {left: -30px;}
+.next {right: -40px;}
+button:disabled {opacity: 0.5;cursor: not-allowed;}
+.dots-container {display: flex;justify-content: center;margin-top: 20px;}
+.dot {width: 12px;height: 12px;margin: 0 5px;background-color: #bbb;border-radius: 50%;display: inline-block;transition: background-color 0.3s ease;cursor: pointer;
+}
+
+.active-dot {background-color: #ffffff;}
+.new_slider_arrow {cursor: pointer;position: absolute;top: 50%;color: white;border-radius: 20%;font-size: 25px;font-weight: bold;text-align: center;padding-top: 12px;
+}
+.data-analysis-slider2{background: url(https://cdn-e-careers.scdn5.secure.raxcdn.com/images/best_banner_desktop.jpg) no-repeat right;
+    background-size: cover;
+    padding: 50px 0 122px;
+    background-position: bottom;}
+.data-analysis-slider2-content{color: #fff;}
+
+.data-analysis-slider2-container {position: relative;width: 1200px;margin: 0px auto;}
+
+.data-analysis-slider2-carousel {display: flex;transition: transform 0.5s ease-in-out;}
+
+.data-analysis-slider2-slide {min-width: 30%;box-sizing: border-box;padding: 20px;text-align: left;background-color: #fff;font-size: 16px;line-height: 1.5;
+justify-content: center;border-radius: 25px 0;margin: 0px 18px;}
+.data-analysis-slider2-slide img {width: 50px;height: 50px;margin-bottom: 15px;}
+button {position: absolute;top: 50%;transform: translateY(-50%);background-color: rgba(0, 0, 0, 0.5);color: white;font-size: 24px;border: none;cursor: pointer;
+padding: 10px;z-index: 10;}
+.data-analysis-slider2-prev {left: -30px;}
+.data-analysis-slider2-next {right: -30px;}
+button:disabled {opacity: 0.5;cursor: not-allowed;}
+.data-analysis-slider2-dots-container {display: flex;justify-content: center;margin-top: 20px;}
+
+.data-analysis-slider2-dot {width: 12px;height: 12px;margin: 0 5px;background-color: #717171;border-radius: 50%;display: inline-block;transition: background-color 0.3s ease;
+cursor: pointer;}
+.ds-active-dot {background-color: #fff;}
+.content{width: 60%;}
+</style>
+</head>
+<body>
+<div class="main-container">
+    
+<div class="container">
+        <div class="container-content">
+            <div class="content">
+            <h2>What is Data Analysis?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Data analysis is the process of examining, refining, transforming, and interpreting raw data to uncover insights, aid in decision-making, and address problems. It serves as a connection between raw numbers and actionable strategies, turning data into a critical asset for businesses and organizations.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Learning data analysis provides the skills necessary to interpret complex data sets, recognize trends, and present findings effectively. This area is essential in today’s world, where data drives most industries. Whether in data visualization or predictive modeling, understanding data has become crucial for success.</p>
+       
+        <div class="da-examples">
+            <h2>Here are some examples of data analysis in real-life scenarios:</h2>
+            <ul>
+                <li>
+                    <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                    <p><strong>Transportation Industry:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Companies like Uber and Lyft use data analysis to forecast demand, optimize routes, and dynamically adjust pricing based on various factors. For instance, during a weather event, they apply data to raise prices to balance supply and demand.</p>
+                </li>
+                <li>
+                    <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                    <p><strong>e-Commerce:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Giant retailers like Amazon rely on data analysis to suggest products to customers, based on browsing history and past purchases. This also helps in managing stock, predicting demand, and personalizing shopping experiences using advanced analytics.</p>
+                </li>
+                <li>
+                    <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                    <p><strong>Smart Cities:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Many cities are using data analysis to improve public services such as traffic flow management. By analyzing data from traffic sensors and cameras, they adjust signal timings to reduce congestion and improve traffic movement.</p>
+                </li>
+                <li>
+                    <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                    <p><strong>Healthcare:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Data analysis is revolutionizing healthcare through predictive models. Hospitals utilize patient history to predict health risks, apply AI to interpret diagnostic images, and forecast bed and staffing needs during busy times, like during the flu season.</p>
+                </li>
+                <li>
+                    <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                    <p><strong>Finance Industry:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Banks and financial institutions turn to data analysis to evaluate loan risks, predict market movements, and spot fraudulent activities. For example, PayPal uses machine learning to analyze transactions in real time, minimizing the chances of fraud.</p>
+                </li>
+                <li>
+                    <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                    <p><strong>Technology Industry:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Platforms like Spotify and Google employ data analysis to improve user experiences, offering personalized content and optimizing search algorithms based on user data. These companies innovate by continuously refining their systems using data insights.</p>
+                </li>
+                <li>
+                    <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                    <p><strong>Marketing Industry:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Marketers use data to segment audiences, assess campaign success, and refine advertising strategies. Social media platforms such as Facebook and Google leverage data analysis to deliver hyper-targeted ads, leading to better conversion rates and higher sales.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="image-container-2">
+<div class="image-content-container-2">
+
+<h2>What does a Data Analyst do?</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A data analyst plays a critical role in assisting organizations to make well-informed decisions by interpreting and analyzing data to find valuable insights. Their job begins by collecting data from diverse sources such as databases, surveys, web scraping tools, and APIs. Once gathered, the data undergoes a cleaning process, eliminating errors, inconsistencies, and missing values to ensure accuracy before any analysis takes place. The next step involves exploring the data using statistical techniques, identifying patterns, correlations, outliers, and trends that can provide valuable understanding. To communicate findings, data analysts create visuals like charts, graphs, and dashboards, making complex insights easy for stakeholders to understand.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. From forecasting trends to improving operational efficiency, data analysts are vital for enabling businesses to make data-driven decisions and gain a competitive advantage in today's market.</p>
+
+</div>
+</div>
+
+</div>
+
+<div class="data-analysis-slider1-section">
+<div class="data-analysis-slider1">
+
+<!-- slider -->
+<h2 style="color: white;">Benefits of becoming a Data Analyst</h2>
+<p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A career in data analysis offers tremendous opportunities for growth and job satisfaction. Here are some key advantages of completing a data analysis certification:</p>
+<div class="carousel-container"><div style="overflow: hidden;">
+    <div class="carousel">
+    
+        <div class="slide">
+            <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+            <h4>High demand across industries</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Data analysts are in high demand across many sectors, including finance, healthcare, marketing, technology, and e-commerce. With businesses becoming increasingly reliant on data-driven decision-making, qualified analysts are essential for success.</p>
+        </div>
+        <div class="slide">
+            <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+            <h4>Attractive salaries and career growth</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Data analysts enjoy competitive salaries, even in entry-level roles. As you gain experience and specialize in advanced tools, you can progress to higher positions like data scientist, business intelligence manager, or even Chief Data Officer (CDO).</p>
+        </div>
+        <div class="slide">
+            <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+            <h4>Versatile skill set</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Working as a data analyst allows you to develop a versatile skill set that can be applied in many different sectors. Proficiency in tools like Excel, SQL, Python, and Power BI enables analysts to adapt to a wide variety of business needs, from customer analysis to financial forecasting.</p>
+        </div>
+        <div class="slide">
+            <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+            <h3>Flexible and Remote Work Opportunities</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Many data analysis jobs offer the flexibility of remote work, allowing you to work from anywhere. This is especially beneficial for those seeking a better work-life balance or preferring to work in a dynamic, flexible environment.</p>
+        </div>
+        <div class="slide">
+            <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+            <h3>Flexible and Remote Work Opportunities</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Many data analysis roles can be performed remotely, providing employees with the ability to work from any location. This is particularly appealing to those looking for a better work-life balance or a less traditional office environment.</p>
+        </div>
+        <div class="slide">
+            <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+            <h3>Flexible and Remote Work Opportunities</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Working as a data analyst often provides the opportunity to work remotely, making it an ideal career for those who value flexibility and prefer a dynamic, autonomous working style.</p>
+        </div>
+    </div>
+</div>
+    <button class="new_slider_arrow prev" onclick="moveSlide(-1)" disabled="">❮</button>
+    <button class="new_slider_arrow next" onclick="moveSlide(1)">❯</button>
+<!-- Navigation Dots -->
+<div class="dots-container">
+    <div class="dot active-dot" onclick="moveToSlide(0)"></div>
+    <div class="dot" onclick="moveToSlide(1)"></div>
+    <div class="dot" onclick="moveToSlide(2)"></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="image-container-3">
+<div class="image-content-container-3">
+<div class="content">
+<h2>Demand for data analysis jobs in the marketplace</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. The demand for data professionals is rapidly growing, making data analysis one of the most sought-after fields in the job market. The rise of artificial intelligence and data science means companies need skilled professionals to manage, interpret, and communicate insights derived from data.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. According to recent reports, job postings related to data have surged by more than 30% in just the past two years, with roles such as data analysts, scientists, and engineers being some of the fastest-growing in the labor market. A recent Tech Nation report revealed that data-driven positions have been responsible for a 43% increase in tech job postings in the UK alone. Globally, demand for data professionals has also increased, particularly in finance, healthcare, and retail sectors.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. As businesses across sectors like finance, retail, and healthcare continue to prioritize data-driven decision-making, the demand for qualified data analysts remains high. This emphasizes the importance of upskilling in tools like SQL, Python, and Power BI, which are essential for maintaining employability in this expanding job market.</p>
+</div>
+</div>
+</div>
+
+<div class="data-analysis-slider2">
+    
+    <div class="data-analysis-slider2-container">
+        <h2 style="color: white;">Qualifications required to become a Data Analyst</h2>
+        <div style="overflow: hidden;">
+        <div class="data-analysis-slider2-carousel">
+            <div class="data-analysis-slider2-slide">
+                <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                <h4>Technical skills</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proficiency in tools such as Excel, SQL, and Python is essential for manipulating and analyzing data. Additionally, knowledge of data visualization platforms like Power BI and Tableau is crucial for presenting insights in a clear and visually appealing manner.</p>
+            </div>
+            <div class="data-analysis-slider2-slide">
+                <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                <h4>Analytical and problem-solving abilities</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Strong analytical skills are required to analyze large datasets and derive actionable insights. Whether identifying trends or solving business problems, the ability to critically assess data and come up with solutions is paramount.</p>
+            </div>
+            <div class="data-analysis-slider2-slide">
+                <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                <h4>Communication and adaptability</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Communicating findings clearly and simply to non-technical stakeholders is essential. Additionally, adaptability is important, as the field of data analysis is constantly evolving with new tools and techniques.</p>
+            </div>
+            <div class="data-analysis-slider2-slide">
+                <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                <h4>Communication and adaptability</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Data analysts must be able to communicate complex findings to a diverse audience. Being adaptable ensures that professionals can stay up-to-date with the latest technologies and methodologies in the field.</p>
+            </div>
+            <div class="data-analysis-slider2-slide">
+                <img src="https://static.e-careers.com/v6/images/category/acc_sec_1.png" alt="Icon">
+                <h4>Communication and adaptability</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. The ability to adapt to new challenges, tools, and workflows ensures continued success in the dynamic field of data analysis. Communicating clearly is essential for explaining technical findings to business leaders.</p>
+            </div>
+
+        </div>
+        <button class="data-analysis-slider2-prev" disabled="">❮</button>
+        <button class="data-analysis-slider2-next">❯</button>
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="data-analysis-slider2-dots-container">
+        <div class="data-analysis-slider2-dot ds-active-dot"></div>
+        <div class="data-analysis-slider2-dot"></div>
+        <div class="data-analysis-slider2-dot"></div>
+    </div>
+    </div>
+</div>
+</div>
+
+
+
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+    const slidesToShow = 4;
+
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+    const dots = document.querySelectorAll('.dot');
+
+    function updateButtons() {
+        if (currentIndex === 0) {
+            prevButton.disabled = true;
+        } else {
+            prevButton.disabled = false;
+        }
+
+        if (currentIndex >= totalSlides - slidesToShow) {
+            nextButton.disabled = true;
+        } else {
+            nextButton.disabled = false;
+        }
+
+        updateDots();
+    }
+
+    function updateDots() {
+        dots.forEach(dot => dot.classList.remove('active-dot'));
+        dots[currentIndex].classList.add('active-dot');
+    }
+
+    function moveSlide(direction) {
+        currentIndex += direction;
+
+        if (currentIndex < 0) {
+            currentIndex = totalSlides - 1;
+        } else if (currentIndex >= totalSlides) {
+            currentIndex = 0;
+        }
+
+        const carousel = document.querySelector('.carousel');
+        carousel.style.transform = `translateX(-${(100 / slidesToShow) * currentIndex}%)`;
+
+        updateButtons();
+    }
+
+    function moveToSlide(index) {
+        currentIndex = index;
+        const carousel = document.querySelector('.carousel');
+        carousel.style.transform = `translateX(-${(100 / slidesToShow) * currentIndex}%)`;
+
+        updateButtons();
+    }
+
+    updateButtons();
+
+
+// slider 2 js 
+    $(document).ready(function() {
+        let currentIndex = 0;
+        const slides = $('.data-analysis-slider2-slide');
+        const totalSlides = slides.length;
+        const slidesToShow = 3; // Show 3 slides at a time
+
+        const prevButton = $('.data-analysis-slider2-prev');
+        const nextButton = $('.data-analysis-slider2-next');
+        const dots = $('.data-analysis-slider2-dot');
+        const carousel = $('.data-analysis-slider2-carousel');
+
+        function updateButtons() {
+            if (currentIndex === 0) {
+                prevButton.prop('disabled', true);
+            } else {
+                prevButton.prop('disabled', false);
+            }
+
+            if (currentIndex >= totalSlides - slidesToShow) {
+                nextButton.prop('disabled', true);  // Disable next button on the last slide
+            } else {
+                nextButton.prop('disabled', false);
+            }
+
+            updateDots();
+        }
+
+        function updateDots() {
+            dots.removeClass('ds-active-dot'); // Remove previous active dot class
+            dots.eq(currentIndex).addClass('ds-active-dot'); // Add new active dot class
+        }
+
+        function moveSlide(direction) {
+            currentIndex += direction;
+
+            if (currentIndex < 0) {
+                currentIndex = totalSlides - slidesToShow;
+            } else if (currentIndex >= totalSlides) {
+                currentIndex = 0;
+            }
+
+            carousel.css('transform', `translateX(-${(100 / slidesToShow) * currentIndex}%)`);
+
+            updateButtons();
+        }
+
+        function moveToSlide(index) {
+            currentIndex = index;
+            carousel.css('transform', `translateX(-${(100 / slidesToShow) * currentIndex}%)`);
+
+            updateButtons();
+        }
+
+        prevButton.click(function() {
+            moveSlide(-1);
+        });
+
+        nextButton.click(function() {
+            moveSlide(1);
+        });
+
+        dots.click(function() {
+            const index = $(this).index();
+            moveToSlide(index);
+        });
+
+        updateButtons();
+    });
+</script>
+
+
+</body>
+</html>
